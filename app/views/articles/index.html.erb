@@ -15,7 +15,7 @@
   <tbody>
     <% @articles.each do |article| %>
       <tr>
-        <td><%= article.user.firstname %></td>
+        <td><%= article.user.username %></td>
         <td><%= article.title %></td>
         <td><%= article.body %></td>
         <td><%= link_to 'Show', article %></td>
