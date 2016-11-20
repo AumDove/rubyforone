@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.6'
+ruby '2.3.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -27,6 +27,7 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'rubygems-update', '~> 2.6', '>= 2.6.8'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
