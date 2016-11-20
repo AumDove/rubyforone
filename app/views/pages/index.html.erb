@@ -140,7 +140,7 @@
        <div class="well">
          <h4>Recent Posts</h4>
          <% @articles.each do |a| %>
-         Author: <%= user.user.username unless user.user.blank? %>
+         Author: <%= post.user.username unless post.user.blank? %>
          <strong><%= link_to a.title, a %></strong>
          <p><%= truncate(a.body) %></p>
          
