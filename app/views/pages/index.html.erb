@@ -140,8 +140,8 @@
        <div class="well">
          <h4>Recent Posts</h4>
          <% @articles.each do |a| %>
-         <%= a.title %>
-         <%= a.body %>
+         <strong><%= link_to a.title, a %></strong>
+         <p><%= truncate(a.body) %></p>
          
          <% end %>
        </div>
